@@ -1,0 +1,22 @@
+<policyDefinitions revision="1.0" schemaVersion="1.0">
+  <policyNamespaces>
+    <target prefix="msmcs" namespace="ms.mcs.Policies.ManagedBy" />
+    <using prefix="windows" namespace="Microsoft.Policies.Windows" />
+  </policyNamespaces>
+  <supersededAdm fileName="" />
+  <resources minRequiredRevision="1.0" />
+  <supportedOn>
+    <definitions>
+      <definition name="SUPPORTED_WindowsXP" displayName="$(string.SUPPORTED_WindowsXP)" />
+    </definitions>
+  </supportedOn>
+  <categories>
+    <category name="CAT_ManagedBy" displayName="$(string.CAT_ManagedBy)" />
+  </categories>
+  <policies>
+    <policy name="POL_ManagedByEnabled" class="Machine" displayName="$(string.POL_ManagedByEnabled)" explainText="$(string.POL_ManagedByEnabled_Help)" key="Software\Policies\Microsoft Services\ManagedBy" valueName="Enabled" clientExtension="{B62916D5-8E4A-4e49-A6DD-BCA2AD18A815}">
+      <parentCategory ref="CAT_ManagedBy" />
+      <supportedOn ref="SUPPORTED_WindowsXP" />
+    </policy>
+  </policies>
+</policyDefinitions>

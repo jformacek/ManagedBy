@@ -1,0 +1,19 @@
+<policyDefinitionResources revision="1.0" schemaVersion="1.0">
+  <displayName>
+  </displayName>
+  <description>
+  </description>
+  <resources>
+    <stringTable>
+      <string id="SUPPORTED_WindowsXP">At least Microsoft Windows XP Professional or Windows Server 2003 family</string>
+      <string id="CAT_ManagedBy">Dynamic local admins</string>
+      <string id="POL_ManagedByEnabled">Enabled</string>
+      <string id="POL_ManagedByEnabled_Help">Enables Dynamic local admins extension
+
+When enabled, Dynamic local admins extension is allowed to run.
+
+When disabled or not configured, Dynamic local admins extension is not allowed to run
+      </string>
+    </stringTable>
+  </resources>
+</policyDefinitionResources>

@@ -1,0 +1,46 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ManagedBy", "ManagedBy\ManagedBy.vcxproj", "{FAF51500-38ED-4263-9837-892ECAF8EE7E}"
+EndProject
+Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "ManagedBy.Setup", "ManagedBy.Setup\ManagedBy.Setup.wixproj", "{A7243ABF-20DC-46D4-BE20-C023A27838EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{8505ABB2-B44B-4A4C-AC8D-0C6B275EF4A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ADMX", "ADMX", "{7A78B09F-4808-473F-BE4A-8A891F096D41}"
+	ProjectSection(SolutionItems) = preProject
+		SolutionItems\ADMX\ManagedBy.adml = SolutionItems\ADMX\ManagedBy.adml
+		SolutionItems\ADMX\ManagedBy.admx = SolutionItems\ADMX\ManagedBy.admx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAF51500-38ED-4263-9837-892ECAF8EE7E}.Debug|x64.ActiveCfg = Debug|x64
+		{FAF51500-38ED-4263-9837-892ECAF8EE7E}.Debug|x64.Build.0 = Debug|x64
+		{FAF51500-38ED-4263-9837-892ECAF8EE7E}.Debug|x86.ActiveCfg = Debug|Win32
+		{FAF51500-38ED-4263-9837-892ECAF8EE7E}.Debug|x86.Build.0 = Debug|Win32
+		{FAF51500-38ED-4263-9837-892ECAF8EE7E}.Release|x64.ActiveCfg = Release|x64
+		{FAF51500-38ED-4263-9837-892ECAF8EE7E}.Release|x64.Build.0 = Release|x64
+		{FAF51500-38ED-4263-9837-892ECAF8EE7E}.Release|x86.ActiveCfg = Release|Win32
+		{FAF51500-38ED-4263-9837-892ECAF8EE7E}.Release|x86.Build.0 = Release|Win32
+		{A7243ABF-20DC-46D4-BE20-C023A27838EF}.Debug|x64.ActiveCfg = Debug|x64
+		{A7243ABF-20DC-46D4-BE20-C023A27838EF}.Debug|x64.Build.0 = Debug|x64
+		{A7243ABF-20DC-46D4-BE20-C023A27838EF}.Debug|x86.ActiveCfg = Debug|x86
+		{A7243ABF-20DC-46D4-BE20-C023A27838EF}.Debug|x86.Build.0 = Debug|x86
+		{A7243ABF-20DC-46D4-BE20-C023A27838EF}.Release|x64.ActiveCfg = Release|x64
+		{A7243ABF-20DC-46D4-BE20-C023A27838EF}.Release|x64.Build.0 = Release|x64
+		{A7243ABF-20DC-46D4-BE20-C023A27838EF}.Release|x86.ActiveCfg = Release|x86
+		{A7243ABF-20DC-46D4-BE20-C023A27838EF}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7A78B09F-4808-473F-BE4A-8A891F096D41} = {8505ABB2-B44B-4A4C-AC8D-0C6B275EF4A7}
+	EndGlobalSection
+EndGlobal

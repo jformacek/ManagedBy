@@ -1,0 +1,8 @@
+LIBRARY	ManagedBy
+EXPORTS
+	DllMain	@1
+	ProcessGroupPolicy @4
+	DllRegisterServer PRIVATE
+	DllUnregisterServer PRIVATE
+
+

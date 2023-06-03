@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Include>
+  <?define PFDir=[ProgramFiles64Folder]?>
+  <Fragment>
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFiles64Folder">
+        <Directory Id="ManagedBy" Name="ManagedBy">
+        </Directory>
+      </Directory>
+      <Directory Id="WindowsFolder">
+        <Directory Id="dir.admx" Name="PolicyDefinitions">
+          <Directory Id="dir.adml.en.us" Name="en-US"/>
+        </Directory>
+      </Directory>
+    </Directory>
+  </Fragment>
+</Include>
