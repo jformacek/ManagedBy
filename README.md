@@ -1,5 +1,5 @@
 # ManagedBy
-Implements exception in membership onlocal Administrators group, based on security principal reference contained in managedBy attribute of computer account in AD.
+Implements exception in membership of local Administrators group, based on security principal reference contained in managedBy attribute of computer account in AD.
 
 ## Processing logic
 Idea is pretty simple:
